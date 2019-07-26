@@ -10,10 +10,8 @@ if (password === null) {
   message = "Отменено пользователем!";
 } else if (password === ADMIN_PASSWORD) {
   message = "Добро пожаловать!";
-} else if (password !== ADMIN_PASSWORD) {
-  message = "Доступ запрещен, неверный пароль!";
 } else {
-  message = "Что-то пошло не так, повторите попытку";
+  message = "Доступ запрещен, неверный пароль!";
 }
 
 alert(message);
